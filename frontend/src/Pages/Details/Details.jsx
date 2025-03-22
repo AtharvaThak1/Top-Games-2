@@ -13,9 +13,7 @@ const Details = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  if (!isLoggedIn) {
-    return <Navigate to="/login" />;
-  }
+   
 
   // Search for the game in both Favourite and HundredFavourites
   const game =
