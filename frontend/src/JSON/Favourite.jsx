@@ -1,4 +1,4 @@
-import FF from "../assets/Images/ff.jfif";
+import FF from "../assets/Images/FF.jfif";
 import Minecraft from "../assets/Images/minecraft.jpg";
 import GTA from "../assets/Images/gta.jpg";
 import Android from "../assets/Icons/android.png";
