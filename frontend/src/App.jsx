@@ -9,8 +9,6 @@ import Details from "./Pages/Details/Details";
 import Footer from "./Components/Footer/Footer";
 import TopGames from "./Pages/TopGames/TopGames";
 import "./index.css";
-import About from "../src/Pages/About/About";
-import Contact from "../src/Pages/About/Contact";
 
 const App = () => {
   return (
@@ -20,8 +18,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/top-games" element={<TopGames />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<Home />} />
+          <Route path="/contact" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Home />} />
           <Route path="/sign-up" element={<SignUp />} />
