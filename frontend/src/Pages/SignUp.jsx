@@ -34,7 +34,7 @@ const SignUp = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:3000/sign-up", {
+      const response = await axios.post("https://top-games-backend.onrender.com/sign-up", {
         email,
         password, // Send plain password
       });
