@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #001219;
+  width: 100%;
+  flex-direction: column;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #001219;
+  width: 100%;
+  gap: 2rem;
+  padding: 0 10px;
+  height: 90vh;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  color: white;
+}
+
+.left h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.left .btn {
+  width: max-content;
+  background-color: #ee9b00;
+  color: white;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+
+.favourite-games {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: auto;
+  padding: 20px 30px;
+  width: 100%;
+}
+
+.favourite-games h1 {
+  font-size: 2.5rem;
+  color: #ee9b00;
+}
+
+.favourite-games .games {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse;
+    min-height: 100vh;
+    height: auto;
+  }
+
+  .left {
+    width: 100%;
+    display: flex;
+  }
+
+  .right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .right img {
+    width: 40%;
+  }
+}

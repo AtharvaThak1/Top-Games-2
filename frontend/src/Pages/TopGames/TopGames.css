@@ -1,0 +1,20 @@
+body {
+  background-color: white;
+}
+
+.top-games {
+  padding: 20px;
+  background-color: #001219;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.update-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ee9b00;
+  margin-top: 20px;
+  font-weight: bold;
+}

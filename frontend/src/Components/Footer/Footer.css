@@ -1,0 +1,86 @@
+.footer {
+  background-color: #001219;
+  color: white;
+  padding: 20px 0;
+  font-size: 1rem;
+  border-top: 1px solid #ee9b00;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  color: #ee9b00;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin: 0 0 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  background-color: white; /* Add a white background for better visibility */
+  border-radius: 50%; /* Make the background circular */
+  padding: 5px; /* Add padding inside the circle */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.follow-us .icon {
+  color: white; /* Change the icon color to white for better visibility */
+  font-size: 1.5rem; /* Adjust size if needed */
+  transition: color 0.2s;
+}
+
+.follow-us .icon:hover {
+  color: #f35b04; /* Add hover effect for better interactivity */
+}

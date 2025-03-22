@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.details-of-id {
+  padding: 20px;
+  background-color: #001219;
+  color: white;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.details-header {
+  text-align: center;
+}
+
+.details-header h1 {
+  font-size: 3rem;
+  color: #ee9b00;
+  margin-bottom: 10px;
+}
+
+.details-header .rank {
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.details-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.game-image {
+  flex: 1;
+  max-width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.description-of-game {
+  flex: 1;
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.description-of-game h3 {
+  color: #ee9b00;
+  margin-bottom: 10px;
+}
+
+.platforms {
+  margin-top: 20px;
+}
+
+.platforms h3 {
+  color: #ee9b00;
+  margin-bottom: 10px;
+}
+
+.platform-cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.platform-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  color: black;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+  gap: 10px;
+  text-decoration: none; /* Ensure no underline for links */
+  cursor: pointer; /* Add pointer cursor for better UX */
+}
+
+.platform-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+.platform-card img {
+  width: 20px;
+  height: 20px;
+}
+
+.not-found {
+  text-align: center;
+  color: #ee9b00;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .details-header h1 {
+    font-size: 2rem;
+  }
+
+  .game-image {
+    max-width: 100%;
+  }
+
+  .description-of-game {
+    padding: 15px;
+  }
+}
+
+.details {
+  padding: 20px;
+}
