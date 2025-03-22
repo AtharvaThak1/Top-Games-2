@@ -9,8 +9,8 @@ import Details from "./Pages/Details/Details";
 import Footer from "./Components/Footer/Footer";
 import TopGames from "./Pages/TopGames/TopGames";
 import "./index.css";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import About from "../src/Pages/About/About";
+import Contact from "../src/Pages/About/Contact";
 
 const App = () => {
   return (
